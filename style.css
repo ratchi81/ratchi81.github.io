@@ -1,0 +1,388 @@
+@font-face {
+	font-family: "anicb";
+	src: url('font/anicb___.ttf');
+}
+@font-face {
+	font-family: "anicm";
+	src: url('font/anicm___.ttf');
+}
+@font-face {
+	font-family: "anirb___";
+	src: url('font/anirb___.ttf');
+}
+@font-face {
+	font-family: "anirm";
+	src: url('font/anirm___.ttf');
+}
+@font-face {
+	font-family: "tengwarc";
+	src: url('font/Tengwarc.ttf');
+}
+@font-face {
+	font-family: "partybusiness";
+	src: url('font/partybusiness.ttf');
+}
+
+
+
+
+
+.anicb{
+    font-family: "anicb";
+}
+
+.anirb_blanc{
+    font-family: "anicb";
+    color: white;
+    font-size: 1em;
+}
+.partybusiness{
+    font-family: "partybusiness";
+}
+
+.tengwarc{
+    /*font-family: "tengwarc";*/
+    color: #FF6600;;
+    font-size: 1em;
+}
+
+.back_orange{
+    background-color: #FF6600;
+}
+
+.carousel-caption {
+    top: 30%;
+    bottom: auto;
+  }
+
+.caption_big{
+    font-family: "partybusiness";
+    font-size: 4.2em;
+}
+
+.caption_medium{
+    font-family: "partybusiness";
+    font-size: 2.5em;
+}
+
+.navbar-right > .active > a,
+.navbar-right > .active > a:hover,
+.navbar-right > li > a:hover {
+    text-decoration: none;
+    border-radius:0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    color: #ffffff !important;
+    background-color: transparent !important;
+    display: flex;
+    justify-content: center;
+}
+.navbar-inverse .navbar-nav>li>a{
+    color: #ffffff;
+}
+
+.h2{
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.text_small{
+    font-size: 0.8em;
+}
+
+
+
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.nav-pills > li > a:hover {
+    text-decoration: none;
+    font-size: 0.7em;
+    border-radius:0px;
+    border-bottom-width: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #FF6600;
+    color: #FF6600 !important;
+    background-color: transparent !important;
+    display: flex;
+    justify-content: center;
+}
+.nav-pills > li > a{
+    border-radius:0px;
+    color: grey;
+    font-size: 0.7em;
+}
+.center-pills {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.spacer{
+    margin-top: 20px;
+}
+
+
+
+.under_img{
+    font-family: "anirb___";
+    color: #ffffff;
+}
+
+.bg_noir{
+    background-color: #000000;
+}
+
+.text_white{
+    color: white;
+}
+
+.dim_img{
+    width: 326px;
+}
+
+.text_img{
+    position: absolute;
+    font-size: 2.5em;
+    margin-left: 60px;
+    margin-top: -212px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    opacity: 0.85;
+    color: black;
+    font-family: "partybusiness";
+    
+}
+.orange{
+    color: #FF6600;
+}
+.text_h1{
+    position:absolute;
+    margin-left: 80px;
+    margin-top: -38px;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: "partybusiness";
+}
+
+.text_dead{
+    position: absolute;
+    font-size: 4em;
+    margin-left: 60px;
+    margin-top: -197px;
+    padding-left: 75px;
+    padding-right: 15px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+    opacity: 0.85;
+    color: #FF6600;
+    font-family: "partybusiness";
+}
+
+.text_barre{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -38px;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: "partybusiness";
+    text-decoration: line-through;
+    text-decoration-color: #FF6600;
+}
+
+.text_non_barre{
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -38px;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    font-family: "partybusiness";
+}
+
+
+.opacity{
+    opacity: 0.7; 
+}
+
+.opacity:hover{
+    opacity: 1;
+}
+
+.thumbnail:hover .caption_img .text_img {
+    display: none;
+}
+
+.thumbnail:hover .caption_img .text_h1 {
+    margin-top: 60px;
+}
+
+.thumbnail:hover .caption_img .text_dead {
+    display: none;
+}
+
+.thumbnail:hover .caption_img .text_barre {
+    display: none;
+}
+
+.thumbnail:hover .caption_img .text_non_barre {
+    margin-top: 60px;
+}
+
+.opacity_gim{
+    opacity: 0.2; 
+}
+
+.opacity_gim:hover{
+    opacity: 1;
+}
+
+.caption_img {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.hr_orange{
+    display: block;
+    border: 0;
+    background-color: #FF6600;
+    height: 4px;
+    width: 300px;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.text_partybusiness{
+    font-family: "partybusiness";
+    font-size: 2em;
+    color: grey;
+}
+
+.reward{
+    font-family: "anicb";
+    font-size: 1em;
+    text-align: left;
+    padding-bottom: 5px;
+    color: white;
+}
+
+
+.button_parallelogram{
+    padding: 20px;
+    background-color: white;
+    color: #FF6600;
+    font-family: "anicb";
+    font-size: 1.2em;
+    width: 200px;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+    margin-bottom: 10px;
+    margin-left: 50%;
+    margin-right: 50%;
+    
+}
+
+.bg_f2efe8{
+    background-color: #f2efe8;
+    padding-bottom: 40px;
+}
+
+.title_hunter{
+    font-family: "anicb";
+    font-size: 1.2em;
+    padding-bottom: 15px;
+}
+
+.partybusiness_orange{
+    font-family: "partybusiness";
+    color: #FF6600;
+    font-size: 3em;
+}
+
+.capture{
+    font-family: "anicb";
+    font-size: 1em; 
+}
+.profile{
+    font-family: "partybusiness";
+    font-size: 1.2em; 
+    text-decoration: underline;
+}
+
+.ring{
+    padding: 5px;
+    background-color: black;
+    color: #FF6600;
+    font-family: "partybusiness";
+    font-size: 1.2em;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+    margin-left: 5px;
+}
+
+.panel-default>.capabilities{
+    font-family: "anicb";
+    font-size: 1em; 
+    color: white;
+    background-color: #FF6600; 
+}
+
+.text_panel{
+    font-family: "partybusiness";
+    font-size: 1.5em; 
+}
+
+.tr{
+    font-family: "anicb";
+    font-weight: bold; 
+    font-size: 1.2em;  
+}
+
+.td_left{
+    font-family: "anicb";
+    font-weight: normal; 
+    font-size: .8em;
+}
+
+.need_you{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.text_need{
+    text-align: center;
+    font-family: "anicb";
+    font-size: 1em;
+    color: #FF6600;
+}
+
+
+.sauron{
+    padding: 10px;
+    background-color: black;
+    color: #FF6600;
+    font-family: "anicb";
+    font-size: 1em;
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    transform: skew(-20deg);
+}
+
+.footer{
+    padding: 20px;
+}
